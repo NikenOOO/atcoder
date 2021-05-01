@@ -1,0 +1,5 @@
+# 複数入力の受け取り
+a = list(map(int, input().split()))
+
+# 昇順のソート
+arr.sort(reverse=True)
