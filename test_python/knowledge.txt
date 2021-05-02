@@ -3,3 +3,13 @@ a = list(map(int, input().split()))
 
 # 昇順のソート
 arr.sort(reverse=True)
+
+# JSのデフォルト
+function Main(input) {
+    input = input.replace(/\n/, "");
+    let [r, x, y] = input.split(" ").map(Number);
+
+
+    console.log(answer);
+}
+Main(require("fs").readFileSync("/dev/stdin", "utf8"));
