@@ -4,10 +4,13 @@ M = []
 # 全ての文字列候補を作成する
 C = "abcdefghijklmnopqrstuvwxyz."
 
+
 def match_check(T, S):
   for i in range(0, len(S) - len(T) +1):
+    # デフォルトはTrue
     ok = True
 
+    # Sのi+j番目の文字列とTのj番目が等しくないかつ、.でないときFalse 
     for j in range(0, len(T)):
       if S[i+j] != T[j] and T[j] != ".":
         ok = False

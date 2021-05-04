@@ -1,3 +1,6 @@
+# 入出力の確認
+python answer.py < input.txt
+
 # 複数入力の受け取り
 a = list(map(int, input().split()))
 
