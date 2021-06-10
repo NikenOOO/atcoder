@@ -1,20 +1,3 @@
-# 複数入力の受け取り
-a = list(map(int, input().split()))
-
-# 昇順のソート
-arr.sort(reverse=True)
-
-# JSのデフォルト
-function Main(input) {
-    input = input.replace(/\n/, "");
-    let [r, x, y] = input.split(" ").map(Number);
-
-
-    console.log(answer);
-}
-Main(require("fs").readFileSync("/dev/stdin", "utf8"));
-
-# 幅優先探索の模範コード
 ## 参考URL：https://atcoder.jp/contests/abc007/tasks/abc007_3
 from collections import deque
 
@@ -62,4 +45,3 @@ while len(Q) > 0:
 
 ## 始点から終点までの移動回数を出力
 print(dist[gy][gx])
-
